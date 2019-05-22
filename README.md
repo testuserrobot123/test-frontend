@@ -1,5 +1,8 @@
 +++
 title = "Midgard-Angular"
+aliases = [
+  "/walhall/midgard/midgard-angular"
+]
 +++
 
 # Midgard-Angular
