@@ -6,9 +6,11 @@ title = "Midgard-Angular"
 
 ## Summary
 
-Midgard-Angular is an [Angular](https://angularjs.org/) web application that implements the core features of [Midgard](https://docs.walhall.io/walhall/midgard).
+Midgard-Angular is an [Angular](https://angularjs.org/) web application that implements the core features of [Midgard](https://docs.walhall.io/midgard).
 
-Midgard-Angular is your **application root repository.** When you create a [Walhall application](https://docs.walhall.io/walhall), Walhall forks Midgard-Angular to your GitHub account and gives it the same name as your application. It comes pre-configured to communicate with your application's API via [BiFrost](https://docs.walhall.io/walhall/bifrost). This is where you develop your Walhall application.
+Midgard-Angular is your **application root repository.** When you add Midgard to your [Walhall application](https://docs.walhall.io/walhall), Walhall forks Midgard-Angular to your GitHub account and gives it the same name as your application. It comes pre-configured to communicate with your application's API via [BiFrost](https://docs.walhall.io/walhall/bifrost). 
+
+When you deploy your application in Walhall, you can access this frontend application by clicking the **frontend URL** on the application page.
 
 Current Angular version: **v7.2.13**
 
