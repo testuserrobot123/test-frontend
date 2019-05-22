@@ -7,7 +7,7 @@ aliases = [
 
 # Midgard-Angular
 
-## Summary
+## Overview
 
 Midgard-Angular is your **application root repository**---i.e., where you develop the frontend web application for your [Walhall](https://docs.walhall.io/walhall) microservice architecture When you add Midgard to your Walhall application, Walhall forks Midgard-Angular to your GitHub account and gives it the same name as your application. It comes pre-configured to communicate with your application's API via [BiFrost](https://docs.walhall.io/walhall/bifrost). 
 
