@@ -1,6 +1,29 @@
 {
-  "appEntryPoint": "/user",
-  "appTitle": "Midgard",
-  "modules": []
+    "appEntryPoint": "/user",
+    "appTitle": "test",
+    "modules": [
+        {
+            "url": "https://github.com/testuserrobot123/locations_client_angular.git",
+            "name": "locations",
+            "config": {
+                "styles": "./src/clients/locations/node_modules/leaflet/dist/leaflet.css",
+                "entryPointComponent": "",
+                "routingModuleOptions": {
+                    "path": "src/midgard/midgard-routing.module.ts",
+                    "parentComponent": "MidgardComponent",
+                    "childrenArrayIndex": "0"
+                },
+                "parentExitPointComponent": {
+                    "path": "src/midgard/components/nav-bar/nav-bar.component.html",
+                    "options": {
+                        "icon": "map",
+                        "label": "Locations",
+                        "route": "locations"
+                    },
+                    "elementId": "navbar",
+                    "componentSelector": "mg-navbar-elem"
+                }
+            }
+        }
+    ]
 }
-
